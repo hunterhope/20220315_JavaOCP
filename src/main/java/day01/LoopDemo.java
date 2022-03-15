@@ -1,7 +1,6 @@
 
 package day01;
-//https://github.com/hunterhope/20220315_JavaOCP.git
-//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
+
 public class LoopDemo {
     public static void main(String[] args) {
         int sum=0;
