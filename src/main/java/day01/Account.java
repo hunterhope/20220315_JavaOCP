@@ -17,6 +17,11 @@ public class Account {
     public void deposit(int amount){
         balance+=amount;
     }
+    
+    //提款程序
+    public void withdrawal(int amount){
+        balance-=amount;
+    }
     //印出帳戶餘額
     public void print(){
         System.out.printf("%s $%,d %n",name,balance);

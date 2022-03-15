@@ -9,7 +9,7 @@ package day01;
  *
  * @author MB-study
  */
-public class AccountMain2 {
+public class AccountMain3 {
 
     /**
      * @param args the command line arguments
@@ -19,11 +19,9 @@ public class AccountMain2 {
         ac1.name = "A01";
         ac1.deposit(100);
         ac1.print();
-
-        ac1.deposit(50);
-        ac1.print();
-
-        ac1.deposit(10);
+        
+        //提款
+        ac1.withdrawal(30);
         ac1.print();
     }
 
