@@ -14,5 +14,6 @@ public class VocabularyBook {
     private String amount;//單字總數
     private Double price;//價錢
     private Integer inventory;//庫存
+    private String level;//分類
     
 }
