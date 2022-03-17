@@ -20,7 +20,16 @@ public class Account {
     
     //提款程序
     public void withdrawal(int amount){
-        balance-=amount;
+        if(amount<=0){
+            System.out.println("金額錯誤");
+            return;//中斷方法
+        }
+        if(balance >= amount){
+            balance-=amount;
+        }else{
+            System.out.println("餘額不足");
+        }
+        
     }
     //印出帳戶餘額
     public void print(){

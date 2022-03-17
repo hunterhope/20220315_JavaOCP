@@ -23,6 +23,9 @@ public class AccountMain3 {
         //提款
         ac1.withdrawal(30);
         ac1.print();
+        
+        ac1.withdrawal(150);
+        ac1.print();
     }
 
 }
