@@ -15,5 +15,6 @@ public class VocabularyBook {
     private Double price;//價錢
     private Integer inventory;//庫存
     private String level;//分類
+    private String imgUrl;//圖片位置
     
 }
